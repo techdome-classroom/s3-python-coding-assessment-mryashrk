@@ -1,4 +1,4 @@
- class Solution:
+  class Solution:
     def romanToInt(self, s: str) -> int:
         m = {
             'I': 1,
@@ -19,10 +19,3 @@
                 ans += m[s[i]]
         
         return ans
-
-
-
-
-
-
-
