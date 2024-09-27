@@ -1,4 +1,4 @@
- class Solution(object):
+  class Solution(object):
     def isValid(self, s):
         stack = [] 
         for c in s: 
@@ -13,16 +13,3 @@
                 stack.pop() 
         return not stack
    
-
-
-
-
-
-
-
-    
-
-
-
-  
-
